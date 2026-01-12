@@ -10,6 +10,7 @@ import {
     TouchableOpacity,
     View
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { useAuth } from "./AuthContext";
 import { validateLogin } from "./LoginHelper";
 
@@ -30,7 +31,7 @@ export default function LoginScreen() {
     };
     
     return(
-        // <SafeAreaView style={{ flex: 1 }}>
+        <SafeAreaView style={{ flex: 1 }}>
             <KeyboardAvoidingView  
             style={{ flex: 1 }}
             behavior={Platform.OS === "ios" ? "padding" : "height"}>
@@ -63,7 +64,7 @@ export default function LoginScreen() {
                     </View>
                 </ScrollView>
         </KeyboardAvoidingView>
-        // </SafeAreaView>
+    </SafeAreaView>
     );
 }
 
