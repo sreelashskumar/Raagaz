@@ -7,7 +7,7 @@ import {
 export default function ProfileScreen() {
     return(
         <View style={{ flex: 1 }}>
-            <Text>Profile Screen e</Text>
+            <Text>Profile Screen</Text>
         </View>
     )
 }

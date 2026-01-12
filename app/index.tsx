@@ -1,4 +1,7 @@
 import React from "react";
+import {
+  View
+} from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context";
 import { AuthProvider, useAuth } from "../src/features/login/AuthContext";
 import LoginScreen from "../src/features/login/LoginScreen";
@@ -8,9 +11,9 @@ function Root() {
   const { isLoggedIn } = useAuth()
 
   return(
-    <SafeAreaView style={{ flex: 1 }}>
+    <View style={{ flex: 1 }}>
       {isLoggedIn ? <RootTabs /> : <LoginScreen />}
-    </SafeAreaView>
+    </View>
   )
 }
 
