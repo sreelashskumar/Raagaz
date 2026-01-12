@@ -1,0 +1,91 @@
+# ------------------------------------
+# Node / JavaScript
+# ------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# ------------------------------------
+# Metro / React Native
+# ------------------------------------
+.expo/
+.expo-shared/
+.web/
+.metro-health-check*
+*.hprof
+
+# ------------------------------------
+# Environment files
+# ------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------
+# iOS
+# ------------------------------------
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+!ios/*.xcworkspace/contents.xcworkspacedata
+
+# Xcode user data
+ios/*.xcuserstate
+ios/*.xcuserdata/
+
+# iOS signing
+ios/*.p12
+ios/*.mobileprovision
+
+# ------------------------------------
+# Android
+# ------------------------------------
+android/.gradle/
+android/build/
+android/app/build/
+
+# Local config
+android/local.properties
+
+# Keystore files
+*.keystore
+*.jks
+
+# ------------------------------------
+# Fastlane
+# ------------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ------------------------------------
+# IDE / Editor
+# ------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# ------------------------------------
+# macOS / Windows
+# ------------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------------
+# Coverage / Tests
+# ------------------------------------
+coverage/
+.nyc_output/
+
+# ------------------------------------
+# Temporary files
+# ------------------------------------
+tmp/
+temp/
